@@ -259,7 +259,7 @@ gnorm / gestan / gporcen
 ```
 </div>
 
-Seguido a esto, vamos a evaluar las correlaciones 
+A continuacion, vamos a evaluar las correlaciones 
 ```{r}
 energianorm <- data.frame(energia2,acp_norm$x[,1:4])
 cornorm <- cor(energianorm)
